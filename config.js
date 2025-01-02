@@ -9,20 +9,20 @@ if (fs.existsSync('config.env')) {
 
 const LOGS = process.env.LOGS || "false";
 const API = "https://api-aswin-sparky.koyeb.app";
-const ALIVE = process.env.ALIVE || "I am Alive";
+const ALIVE = process.env.ALIVE || "Hi Muhammad Bot Alive";
 const HANDLERS = process.env.HANDLERS || ".";
 const SESSION_ID = process.env.SESSION_ID || "";
-const SUDO = process.env.SUDO || '917012984396';
+const SUDO = process.env.SUDO || '9233098/99931';
 const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "true";
 const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "false";
 const DISABLE_PM = process.env.DISABLE_PM  || "false";
 const PM_BLOCK = process.env.PM_BLOCK || "false";
 const PMB = process.env.PMB || "Sorry, I can't help you in private chat.";
 const READ_MESSAGES = process.env.READ_MESSAGES || "false";
-const BOT_INFO = process.env.BOT_INFO || "X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg";
+const BOT_INFO = process.env.BOT_INFO || "MUHAMMAD-BOT-MD;MUHAMMAD;https://files.catbox.moe/3doqu3.jpeg";
 const URL = process.env.URL || "https://www.instagram.com/sparky.drip";
-const AUDIO_DATA = process.env.AUDIO_DATA || "X BOT MD;ASWIN SPARKY;https://i.imgur.com/fVCRCYG.jpeg";
-const STICKER_DATA = process.env.STICKER_DATA || "X BOT MD;ASWIN SPARKY";
+const AUDIO_DATA = process.env.AUDIO_DATA || "Muhammad BOT MD;MUHAMMAD;https://files.catbox.moe/3doqu3.jpeg";
+const STICKER_DATA = process.env.STICKER_DATA || "muhammad BOT MD;MUHAMMAD";
 const WORK_TYPE = process.env.WORK_TYPE || 'public';
 const DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
 const HEROKU_APP_NAME = process.env.HEROKU_APP_NAME || "";
